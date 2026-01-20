@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔲 QR Code Generator
+# AWS QR Code Generator
 
 ### Gerador de QR Codes com Spring Boot, AWS S3 e Docker
 
@@ -13,22 +13,30 @@
 </div>
 
 ---
+<div align="center">
+  
+## Demonstração | Demonstration
+https://github.com/user-attachments/assets/b88caca6-da3e-4939-8084-7b61da3bf68d
 
-## 📋 Sobre o Projeto
+</div>
+
+---
+
+## Summary | Sobre
 
 API REST desenvolvida em Spring Boot para geração de QR Codes com armazenamento automático na AWS S3. Solução containerizada com Docker, ideal para integração em sistemas que necessitam de geração dinâmica de QR Codes.
 
 ### ✨ Funcionalidades
 
-- 🎯 Geração de QR Codes personalizados
-- ☁️ Upload automático para AWS S3
-- 🐳 Containerização com Docker
-- 🚀 API REST simples e eficiente
-- 📦 Build otimizado com Maven
+- Geração de QR Codes personalizados
+- Upload automático para AWS S3
+- Containerização com Docker
+- API REST simples e eficiente
+- Build otimizado com Maven
 
 ---
 
-## 🛠️ Tecnologias
+## Tech Stack
 
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
@@ -93,7 +101,7 @@ docker run -p 8080:8080 qrcode-generator
 
 ---
 
-## 📡 Endpoints da API
+## Endpoints da API
 
 ### Gerar QR Code
 
@@ -116,7 +124,7 @@ Content-Type: application/json
 
 ---
 
-## 📁 Estrutura do Projeto
+## Arquitetura do Projeto
 
 ```
 qrcodegenerator/
@@ -137,24 +145,12 @@ qrcodegenerator/
 
 ---
 
-## 🔒 Segurança
+## Dicas de Segurança
 
 - ⚠️ Nunca commite credenciais AWS no repositório
 - 🔐 Use variáveis de ambiente para informações sensíveis
 - 🛡️ Configure políticas IAM adequadas no AWS S3
 - 🔑 Utilize AWS Secrets Manager em produção
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
 
 ---
 
