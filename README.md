@@ -16,7 +16,7 @@
 
 <h1 align="center">
   <img src="https://i.imgur.com/VN6wG7g.gif" width="30"/>
-  Demonstração
+  Demonstração | Demo
 </h1>
 
 https://github.com/user-attachments/assets/b88caca6-da3e-4939-8084-7b61da3bf68d
